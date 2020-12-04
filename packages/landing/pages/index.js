@@ -17,6 +17,7 @@ import TeleAssistance from '../containers/AgencyDigital/TeleAssistance';
 import Footer from '../containers/AgencyDigital/Footer';
 import Collectivite from '../containers/AgencyDigital/Collectivite';
 import Realisations from '../containers/AgencyDigital/Realisations';
+import FaqSection from '../containers/AgencyDigital/Faq';
 
 export default () => {
   return (
@@ -31,7 +32,6 @@ export default () => {
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i|Lato+Sans:400,400i,500,500i,700,700i|Montserrat+Sans:400,400i,500,500i,700,700i|DM+Sans:400,400i,500,500i,700,700i&display=swap"
-
           />
         </Head>
         <ResetCSS />
@@ -44,14 +44,19 @@ export default () => {
           </Sticky>
 
           <Banner />
+
           <Services />
+
           <Ambition />
-          {/*<Pricing />*/}
+          
           <Realisations />
           
           <Collectivite /> {/** NEW Accordion*/}
 
           <TeleAssistance />
+
+          <FaqSection />
+          
           <Footer />
         </ContentWrapper>
       </Fragment>

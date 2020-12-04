@@ -16,6 +16,38 @@ import Trevou from '../../assets/image/agencyDigital/trevou.jpg';
 import Lerhun from '../../assets/image/agencyDigital/lerhun.jpg';
 
 
+export const FAQ_DATA = [
+  {
+    expend: true,
+    title: 'Quel est notre choix d\'hebergement de site web?',
+    description:
+      '1and1 ou IONOS est notre partenaire privilégié. Nous pouvons sélectionner un prestaire de votre choix. ',
+  },
+  {
+    title: 'Comment se déroule une prise de vue drone chez le client?',
+    description:
+      'C\'est simple. 4 étapes sont nécessaires. Premier contact pour défnir vos objectifs. En général cela se passe par téléphone ou via la plateforme DISCORD pour partager des documents. Ensuite, je vous propose un DEVIS et des propositions de vol en fonction des autorisations à demander. Le jour de la prise de vue photo ou vidéo, je me déplace avec le bureau mobile pour valider les rushs. Enfin, la livraison est réalisée sous forme électronique dans un délai à définir.',
+  },
+  {
+    title: 'Quel sont les différent types de site web proposé?',
+    description:
+      '3 choix sont possibles. Le plus rapide si on vous propose une solution standard à partir d\'une technologie WordPress. La personalisation sera faite par une sélection de modèles.',
+  },
+  {
+    title: 'Quels sont les différents délais?',
+    description:
+      'Ils sont variables en fonction de la prestation. Les délais sont discuté lors de la première rencontre. La proposition de devis indique les différentes phases du projets. Ils dépendent de la compléxité de la demande.',
+  },
+  {
+    title: 'Comment se déroule une formation photo?',
+    description:
+      'La session se déroule en 3 parties. 1h en télé-formation pour découvrir votre appareil et les bases de la composition. 1h de pratique ou je vous accompagne sur un site près de chez-vous. 1h pour faire le bilan de votre travail et commencer le traitement de vos images.',
+  },
+    
+    
+];
+
+
 export const REALISATIONS = [
   {
     titre: 'Zone de mouillages',

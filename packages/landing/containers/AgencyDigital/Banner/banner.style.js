@@ -137,7 +137,7 @@ export const Subscribe = styled.div`
       margin-right: 0px;
     }
     input {
-      font-family: DM Sans;
+      font-family: Lato;
       font-size: 16px;
       min-height: 60px;
       padding: 0 24px;

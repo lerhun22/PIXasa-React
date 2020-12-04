@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Link from 'next/link';
 import Box from 'common/src/components/Box';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
@@ -7,7 +8,9 @@ import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
 import GlideCarousel from 'common/src/components/GlideCarousel';
 import GlideSlide from 'common/src/components/GlideCarousel/glideSlide';
-
+import Zoom from 'react-reveal/Zoom';
+import SectionHeading from '../SectionHeading';
+import Button from 'common/src/components/Button';
 import { REALISATIONS } from 'common/src/data/AgencyDigital';
 
 import {
@@ -16,6 +19,8 @@ import {
   RealisationsMeta,
   AuthorInfo,
   AuthorImage,
+  buttonWrapper,
+  button,
 } from './realisations.style';
 
 const RealisationsSection = ({
@@ -44,10 +49,19 @@ const RealisationsSection = ({
   return (
     <Box {...sectionWrapper} as="section" id="realisations">
       <Container>
+        {/** 
         <Box {...secTitleWrapper}>
           <Text {...secText} content="REALISATIONS" />
           <Heading {...secHeading} content="Nos derniers travaux" />
         </Box>
+        */}
+        <Zoom>
+          <SectionHeading
+            slogan="Une solution simple et adaptée"
+            title="Nouvelles technologies à votre service"
+          />
+        </Zoom>
+
         <RealisationsSlideWrapper>
           <GlideCarousel
             options={carouselOptions}
@@ -85,6 +99,13 @@ const RealisationsSection = ({
 
 RealisationsSection.propTypes = {
   sectionHeader: PropTypes.object,
+  secTitleWrapper: PropTypes.object,
+  secText: PropTypes.object,
+  secHeading: PropTypes.object,
+  reviewTitle: PropTypes.object,
+  review: PropTypes.object,
+  name: PropTypes.object,
+  designation: PropTypes.object,
 };
 
 RealisationsSection.defaultProps = {
