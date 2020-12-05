@@ -18,6 +18,7 @@ const colors = {
   linkColor: '#3183FF',
   slogan: '#00A99D',
   primaryBoxShadow: ' 0px 9px 19.74px 1.26px rgba(82, 104, 219, 0.57) ',
+  footerGrey: '#888888',
 };
 
 export default colors;

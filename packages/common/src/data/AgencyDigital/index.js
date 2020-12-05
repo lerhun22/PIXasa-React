@@ -15,6 +15,68 @@ import Nantouar from '../../assets/image/agencyDigital/nantouar.jpg';
 import Trevou from '../../assets/image/agencyDigital/trevou.jpg';
 import Lerhun from '../../assets/image/agencyDigital/lerhun.jpg';
 
+/* ------------------------------------ */
+// Footer data section
+/* ------------------------------------ */
+import chat from 'common/src/assets/image/appModern/chat.svg';
+import group from 'common/src/assets/image/appModern/group.svg';
+import github from 'common/src/assets/image/appModern/github.svg';
+import footerLogo from 'common/src/assets/image/AgencyDigital/logo.png';
+
+export const footer = {
+  widgets: [
+    {
+      id: 1,
+      icon: chat,
+      title: 'Join the Community',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.',
+    },
+    {
+      id: 2,
+      icon: group,
+      title: 'Join in Chat Community',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.',
+    },
+    {
+      id: 3,
+      icon: github,
+      title: 'Github Access',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.',
+    },
+  ],
+  logo: footerLogo,
+  menu: [
+    {
+      id: 1,
+      text: 'Home',
+      link: '#',
+    },
+    {
+      id: 2,
+      text: 'Adversite',
+      link: '#',
+    },
+    {
+      id: 3,
+      text: 'Supports',
+      link: '#',
+    },
+    {
+      id: 4,
+      text: 'Marketing',
+      link: '#',
+    },
+    {
+      id: 5,
+      text: 'Contact',
+      link: '#',
+    },
+  ],
+};
+
 
 export const FAQ_DATA = [
   {

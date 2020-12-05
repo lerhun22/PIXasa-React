@@ -14,7 +14,7 @@ import Banner from '../containers/AgencyDigital/Banner';
 import Services from '../containers/AgencyDigital/Services';
 import Ambition from '../containers/AgencyDigital/Ambition';
 import TeleAssistance from '../containers/AgencyDigital/TeleAssistance';
-import Footer from '../containers/AgencyDigital/Footer';
+import Footer from '../containers/AgencyDigital/FooterAppModern';
 import Collectivite from '../containers/AgencyDigital/Collectivite';
 import Realisations from '../containers/AgencyDigital/Realisations';
 import FaqSection from '../containers/AgencyDigital/Faq';

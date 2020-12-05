@@ -58,7 +58,7 @@ const RealisationsSection = ({
         <Zoom>
           <SectionHeading
             slogan="Une solution simple et adaptée"
-            title="Nouvelles technologies à votre service"
+            title="Nos derniers travaux !"
           />
         </Zoom>
 

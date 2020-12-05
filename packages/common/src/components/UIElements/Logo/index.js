@@ -14,6 +14,9 @@ const Logo = ({
   title,
   ...props
 }) => (
+    
+
+    
   <Link {...props} {...logoWrapperStyle}>
     {withAchor ? (
       <a {...anchorProps}>
@@ -31,7 +34,7 @@ const Logo = ({
           <Text content={title} {...titleStyle} />
         )}
       </>
-    )}
+        )}
   </Link>
 );
 
